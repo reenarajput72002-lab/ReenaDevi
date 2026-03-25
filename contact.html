@@ -36,15 +36,49 @@
     border:none;
     border-radius:5px;
   }
-    
+    button:hover{
+      background-color:orange;
+    }
+  footer{
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:15px;
+  }
 
-<body style="text-align:center; font-family:Arial;">
+  </style>
+</head>
 
-<h1>Contact Me</h1>
+  <body>
+<header>
+  <h1>Reena Website</h1>
+</header>    
 
-<p>Email: example@gmail.com</p>
+    <nav>
+      <a href="#">Home</a>
+       <a href="#">About</a>
+       <a href="#">contact</a>
+    </nav>
 
-<a href="index.html">Go Back Home</a>
+<section>
+  <h2>Welcome Section</h2>
+  <p>Click the button to see magic</p>
+
+<!-- BUTTON -->
+  <button onclick="showMsg()"Click Me</button>
+</section>
+
+    <!-- JAVASCRIPT START -->
+    <script>
+
+      function showMsg(){
+        alert("Welcome Reena!")
+    </script>
+    <!-- JAVASCRIPT END -->
+    <footer>
+      <p>© 2026 Reena Website</p>
+    </footer>
+
 
 </body>
 </html>
